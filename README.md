@@ -63,7 +63,7 @@ Um aviso, como estamos usando a nova versão do ROS2 a Humble, alguns dos comand
 
 Nesse tópico sua tarefa é criar um simples _package_,  esse vídeo mostra esse processo “[Making Your First ROS Package](https://www.youtube.com/watch?v=Y_SyQXTL2XU&list=PLunhqkrRNRhYYCaSTVP-qJnyUPkTxJnBt&index=6)”. Recomendo também você ler e executar os tutorias da documentação do ROS2 “[Beginner: Client libraries](https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries.html)” até o “_Creating a package_”.
 
-<h3>4.2 Criar um _Publisher_ e _Subscriber_</h3>
+<h3>4.2 Criar um Publisher e Subscriber</h3>
 
 
 Você pode seguir esse tutorial para realizar essa tarefa [Writing a simple publisher and subscriber (Python)](https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Writing-A-Simple-Py-Publisher-And-Subscriber.html#), se você desejar pode fazer isso em C++ também, mas o código é mais complicado. Esse vídeo pode te ajudar a realizar essa tarefas “[Hands-On ROS2 - Part 1 (Publisher/Subscriber)](https://www.youtube.com/watch?v=8407qTyBRe0)”.
