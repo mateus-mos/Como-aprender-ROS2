@@ -12,8 +12,11 @@ Para iniciar a instalação do ROS2 Humble, é importante seguir as instruções
 É importante ressaltar que não é recomendado o uso do ROS2 no Windows, já que vários pacotes não oferecem suporte para esse sistema operacional. Além disso, o ROS2 foi desenvolvido originalmente para rodar no Linux, o que pode gerar problemas de compatibilidade.
 
 Por fim, para instalar o ROS2 Humble, é necessário possuir um sistema baseado no Ubuntu Jammy. Certifique-se de atender a esse requisito antes de iniciar a instalação.
+     
+ 
 
 OBS: Para instalar o Gazebo(a nova versão) leia esse [link](https://gazebosim.org/docs/latest/ros_installation) e instale a versão Fortress do gazebo.
+     
 <h2>2. Conceitos Básicos do ROS2</h2>
 
 
