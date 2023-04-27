@@ -13,6 +13,7 @@ Para iniciar a instalação do ROS2 Humble, é importante seguir as instruções
 
 Por fim, para instalar o ROS2 Humble, é necessário possuir um sistema baseado no Ubuntu Jammy. Certifique-se de atender a esse requisito antes de iniciar a instalação.
 
+OBS: Para instalar o Gazebo(a nova versão) leia esse [link](https://gazebosim.org/docs/latest/ros_installation) e instale a versão Fortress do gazebo.
 <h2>2. Conceitos Básicos do ROS2</h2>
 
 
