@@ -6,16 +6,15 @@
 
 <h2>1. Instalação</h2>
 
+DICA: Para instalar o Gazebo junto com o ROS use o comando `sudo apt install ros-humble-desktop-full` ao invés de `sudo apt install ros-humble-desktop`
 
 Para iniciar a instalação do ROS2 Humble, é importante seguir as instruções disponíveis no link [Ubuntu (Debian) - ROS 2 Documentation: Humble documentation](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html). Além disso, caso prefira, você pode assistir ao vídeo "[How to install ROS | Getting Ready to Build Robots with ROS #3](https://www.youtube.com/watch?v=uWzOk0nkTcI&list=PLunhqkrRNRhYYCaSTVP-qJnyUPkTxJnBt&index=3)", onde o processo de instalação do ROS2 Foxy é explicado - embora o processo seja quase o mesmo para o Humble.
 
 É importante ressaltar que não é recomendado o uso do ROS2 no Windows, já que vários pacotes não oferecem suporte para esse sistema operacional. Além disso, o ROS2 foi desenvolvido originalmente para rodar no Linux, o que pode gerar problemas de compatibilidade.
 
-Por fim, para instalar o ROS2 Humble, é necessário possuir um sistema baseado no Ubuntu Jammy. Certifique-se de atender a esse requisito antes de iniciar a instalação.
+Por fim, para instalar o ROS2 Humble, é necessário possuir um sistema baseado no Ubuntu Jammy, NÃO RECOMENDO utilizar algum derivado do Ubuntu como o Mint, porque tive problemas tentando utilizar o novo Gazebo. Certifique-se de atender a esse requisito antes de iniciar a instalação.
      
  
-
-OBS: Para instalar o Gazebo(a nova versão) leia esse [link](https://gazebosim.org/docs/latest/ros_installation) e instale a versão Fortress do gazebo.
      
 <h2>2. Conceitos Básicos do ROS2</h2>
 
@@ -78,14 +77,3 @@ Você pode seguir esse tutorial para realizar essa tarefa [Writing a simple publ
 Esse tutorial da documentação explica bem esse processo “[Writing a simple service and client (Python)](https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Writing-A-Simple-Py-Service-And-Client.html)”, você pode também seguir as intruções desse vídeo “[Hands-On ROS2 - Part 2 (Service/Client)](https://www.youtube.com/watch?v=RJFoM-vnDJo)”.
 
 ## Alguns possível erros
-### E: The repository '...' does not have a Release file.
-
-Caso você esteja usando Mint você pode se deparar com o seguinte erro(ou algo parecido) instalando o Gazebo ou o ROS2:
-
-E: The repository 'http://packages.osrfoundation.org/gazebo/ubuntu-stable vanessa Release' does not have a Release file.
-
-Isso ocorre porque o "alias" que o Mint usa para o Jammy do Ubuntu é Vanessa(nesse caso), porém não existe esse package no ubuntu-stable. Para resolver isso você deve alterar o "vanessa" para "jammy" no caminho "/etc/apt/sources.list.d/gazebo-stable.list". Depedendo do package o caminho é diferente.
-
-
-
-
